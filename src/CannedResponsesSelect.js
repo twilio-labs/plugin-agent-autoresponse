@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { Actions, withTheme } from '@twilio/flex-ui';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
@@ -41,4 +42,18 @@ class CannedResponsesSelect extends React.Component {
   }
 };
 
-export default withTheme(CannedResponsesSelect);
+const mapStateToProps = (state, ownProps) => {
+  let currentTask = false;
+  state.flex.worker.tasks.forEach((task) => {
+    if (ownProps.channelSid === task.attributes.channelSid) {
+      currentTask = task;
+    }
+  })
+
+  return {
+    state,
+    currentTask
+  }
+}
+
+export default connect(mapStateToProps)(withTheme(CannedResponsesSelect));
