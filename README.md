@@ -11,6 +11,16 @@ The main file is the `AgentAutoResponsePlugin.js` file, and contains many commen
 
 While the canned-responses are static in this example, you might build on this example and call-out to your own server to retrieve your curated list of canned responses before rendering them in the Flex UI.
 
+---
+
+When you run this plugin - you'll see a pre-defined message sent by the answering agent as soon as they accept the task.
+
+Additionally, you'll see new UI added below the Chat Input field which is a Select menu and will let you select from a list of pre-defined canned responses. When selecting any message in the select menu - it will automatically be sent into the chat/sms channel.
+
+## Screenshot
+
+![Screenshot](https://indigo-bombay-5783.twil.io/assets/auto-response-canned.png)
+
 ## Setup
 
 Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmjs.com) installed.
