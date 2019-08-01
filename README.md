@@ -1,6 +1,15 @@
-# Your custom Twilio Flex Plugin
+# Agent Canned and Auto-responses Example
 
-Twilio Flex Plugins allow you to customize the apperance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
+There are two main files in this example:
+
+```
+src/AgentAutoResponsePlugin.js
+src/CannedResponsesSelect.js
+```
+
+The main file is the `AgentAutoResponsePlugin.js` file, and contains many comments describing how the auto-response example is achieved. In addition, it appends the Canned Responses component in `CannedResponsesSelect.js` to Chat/SMS conversations.
+
+While the canned-responses are static in this example, you might build on this example and call-out to your own server to retrieve your curated list of canned responses before rendering them in the Flex UI.
 
 ## Setup
 
