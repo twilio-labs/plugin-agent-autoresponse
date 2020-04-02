@@ -1,6 +1,6 @@
 import { FlexPlugin } from 'flex-plugin';
 import React from 'react';
-import CannedResponsesSelect from './CannedResponsesSelect';
+import CannedResponsesSelect from './components/CannedResponsesSelect';
 
 const PLUGIN_NAME = 'AgentAutoresponsePlugin';
 
