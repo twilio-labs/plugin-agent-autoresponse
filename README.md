@@ -10,10 +10,10 @@ There are two main files in this example:
 
 ```
 src/AgentAutoResponsePlugin.js
-src/components/CannedResponsesSelect.js
+src/components/CannedResponses.js
 ```
 
-The main file is the `AgentAutoResponsePlugin.js` file, and contains many comments describing how the auto-response example is achieved. In addition, it appends the Canned Responses component in `CannedResponsesSelect.js` to Chat/SMS conversations.
+The main file is the `AgentAutoResponsePlugin.js` file, and contains many comments describing how the auto-response example is achieved. In addition, it appends the Canned Responses component in `CannedResponses.js` to Chat/SMS conversations.
 
 While the canned-responses are static in this example, you might build on this example and call-out to your own server to retrieve your curated list of canned responses before rendering them in the Flex UI.
 

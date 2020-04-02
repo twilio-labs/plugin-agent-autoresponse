@@ -1,6 +1,6 @@
 import { FlexPlugin } from 'flex-plugin';
 import React from 'react';
-import CannedResponsesSelect from './components/CannedResponsesSelect';
+import CannedResponses from './components/CannedResponses';
 
 const PLUGIN_NAME = 'AgentAutoresponsePlugin';
 
@@ -18,7 +18,7 @@ export default class AgentAutoresponsePlugin extends FlexPlugin {
    */
   init(flex, manager) {
 
-    flex.MessageInput.Content.add(<CannedResponsesSelect key="canned-responses" />);
+    flex.MessageInput.Content.add(<CannedResponses key="canned-responses" />);
 
     // Listen for Tasks Accepted
     flex.Actions.addListener("afterAcceptTask", (payload) => {
