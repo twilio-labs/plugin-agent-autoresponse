@@ -32,13 +32,14 @@ class CannedResponses extends React.Component {
         <FormControl className="form">
           <InputLabel className="input-label" htmlFor="response">Canned Responses</InputLabel>
           <Select
+            id="canned-responses-select"
             value={this.state.response}
             onChange={this.handleChange}
             name="response"
           >
-            <MenuItem value="This is my first canned response.">Canned Response 1</MenuItem>
-            <MenuItem value="This is my second canned response.">Canned Response 2</MenuItem>
-            <MenuItem value="This is my third canned response.">Canned Response 3</MenuItem>
+            <MenuItem id="canned-response-1" value="This is my first canned response.">Canned Response 1</MenuItem>
+            <MenuItem id="canned-response-2" value="This is my second canned response.">Canned Response 2</MenuItem>
+            <MenuItem id="canned-response-3" value="This is my third canned response.">Canned Response 3</MenuItem>
           </Select>
         </FormControl>
       </CannedResponsesStyles>
