@@ -21,7 +21,7 @@
     "@craco/craco": "^5.0.2",
     "craco-config-flex-plugin": "^3.0.0",
     "flex-plugin": "^3.0.0",
-    "flex-plugin-scripts": "^3.5.0",
+    "flex-plugin-scripts": "^3.13.5",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-scripts": "3.4.1",
