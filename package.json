@@ -25,7 +25,7 @@
     "flex-plugin-scripts": "^3.13.5",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.2"
   },
   "devDependencies": {
     "@twilio/flex-ui": "^1.20.1",
