@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@craco/craco": "^5.0.2",
-    "craco-config-flex-plugin": "^3.13.5",
+    "craco-config-flex-plugin": "^3.13.6",
     "flex-plugin": "^3.13.2",
     "flex-plugin-scripts": "^3.13.5",
     "react": "16.5.2",
