@@ -1,6 +1,6 @@
 {
   "name": "plugin-agent-autoresponse",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "private": true,
   "description": "Enables your agents to send canned responses when chatting with a customer",
   "scripts": {
