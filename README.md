@@ -69,7 +69,7 @@ twilio flex:plugins:deploy --major --changelog "Adding Auto-Response for Agents"
 This will upload your plugin to Flex. After a deploy, your plugin is not yet enabled for all your users on your Flex application. You need to run the release command after the deploy to enable any changes:
 
 ```bash
-twilio flex:plugins:release -name "Plugin Auto-Response " --description "Enabling plugin auto-response" --plugin plugin-agent-autoresponse@latest
+twilio flex:plugins:release --name "Plugin Auto-Response" --description "Enabling plugin auto-response" --plugin plugin-agent-autoresponse@latest
 ```
 
 For more details on deploying your plugin, refer to the [deploying your plugin guide](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).
