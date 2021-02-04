@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ahcai",
+      "name": "Alice Cai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4912483?v=4",
+      "profile": "https://github.com/ahcai",
+      "contributions": [
+        "bug",
+        "code",
+        "doc",
+        "design",
+        "question"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "plugin-agent-autoresponse",
+  "projectOwner": "twilio-labs",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
