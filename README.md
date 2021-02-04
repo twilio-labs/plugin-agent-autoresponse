@@ -1,4 +1,7 @@
 # Agent Auto-Response Plugin
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This Twilio Flex Plugin enables your agents to send canned responses when chatting with a customer.
 
@@ -75,3 +78,23 @@ twilio flex:plugins:release --name "Plugin Auto-Response" --description "Enablin
 For more details on deploying your plugin, refer to the [deploying your plugin guide](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).
 
 Note: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies so the plugin will depend on Flex to provide them globally.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ahcai"><img src="https://avatars.githubusercontent.com/u/4912483?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alice Cai</b></sub></a><br /><a href="https://github.com/twilio-labs/plugin-agent-autoresponse/issues?q=author%3Aahcai" title="Bug reports">🐛</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=ahcai" title="Code">💻</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=ahcai" title="Documentation">📖</a> <a href="#design-ahcai" title="Design">🎨</a> <a href="#question-ahcai" title="Answering Questions">💬</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
