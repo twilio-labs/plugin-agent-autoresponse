@@ -1,6 +1,6 @@
 # Agent Auto-Response Plugin
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This Twilio Flex Plugin enables your agents to send canned responses when chatting with a customer.
@@ -90,6 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/ahcai"><img src="https://avatars.githubusercontent.com/u/4912483?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alice Cai</b></sub></a><br /><a href="https://github.com/twilio-labs/plugin-agent-autoresponse/issues?q=author%3Aahcai" title="Bug reports">🐛</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=ahcai" title="Code">💻</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=ahcai" title="Documentation">📖</a> <a href="#design-ahcai" title="Design">🎨</a> <a href="#question-ahcai" title="Answering Questions">💬</a></td>
     <td align="center"><a href="https://github.com/ktalebian"><img src="https://avatars.githubusercontent.com/u/2308915?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kousha Talebian</b></sub></a><br /><a href="https://github.com/twilio-labs/plugin-agent-autoresponse/issues?q=author%3Aktalebian" title="Bug reports">🐛</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=ktalebian" title="Code">💻</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=ktalebian" title="Documentation">📖</a> <a href="#design-ktalebian" title="Design">🎨</a> <a href="#question-ktalebian" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/johnfischelli"><img src="https://avatars.githubusercontent.com/u/1213604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Fischelli</b></sub></a><br /><a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=johnfischelli" title="Code">💻</a> <a href="https://github.com/twilio-labs/plugin-agent-autoresponse/commits?author=johnfischelli" title="Documentation">📖</a> <a href="#design-johnfischelli" title="Design">🎨</a></td>
   </tr>
 </table>
 
