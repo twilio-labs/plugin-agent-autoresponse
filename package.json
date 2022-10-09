@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "flex-plugin-scripts": "4.1.0"
+    "flex-plugin-scripts": "4.3.0"
   },
   "devDependencies": {
     "@twilio/flex-ui": "^1",
